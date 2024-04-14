@@ -8,10 +8,10 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: version2312
+    branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/digihunch/korthweb
+  url: ssh://git@github.com/hasanerken/korthweb
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
